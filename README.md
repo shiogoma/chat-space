@@ -30,7 +30,7 @@ Things you may want to cover:
 |------|----|-------|
 |email|string|null: false|
 |password|string|null: false|
-|username|string|null: false|
+|name|string|null: false|
 ### Association
 has_many :users_groups
 has_many :groups,  through:  :users_groups
@@ -43,7 +43,7 @@ has_many :messages
 ### Association
 has_many :massages
 has_many :users,  through:  :users_groups
-has_many :members
+has_many :users_groups
 
 ## users_groupsテーブル
 |Column|Type|Options|
