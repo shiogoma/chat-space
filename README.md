@@ -43,6 +43,7 @@ has_many :messages
 ### Association
 has_many :massages
 has_many :users,  through:  :users_groups
+has_many :members
 
 ## users_groupsテーブル
 |Column|Type|Options|
