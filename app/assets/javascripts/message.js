@@ -37,11 +37,11 @@ $(document).on('turbolinks:load', function(){
       $('.form__submit').prop( "disabled", false );
       $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
       $('.form__submit').click("disabled");
-      $('#new_message')[0].reset();
-    });
+      $('#new_message')[0].reset();   
     })
+      
     .fail(function(){
       alert('error');
-    })
+    })  
   })
 });
