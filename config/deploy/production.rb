@@ -31,7 +31,7 @@
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
 
-
+server '54.95.38.20', user: 'ec2-user', roles: %w{app db web}
 
 # Custom SSH Options
 # ==================
@@ -60,4 +60,3 @@
 #     # password: "please use keys"
 #   }
 
-server '54.95.38.20', user: 'ec2-user', roles: %w{app db web}
