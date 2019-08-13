@@ -9,7 +9,6 @@ listen "#{app_path}/shared/tmp/sockets/unicorn.sock"
 stderr_path "#{app_path}/shared/log/unicorn.stderr.log"
 stdout_path "#{app_path}/shared/log/unicorn.stdout.log"
 
-listen 3000
 timeout 60
 
 
