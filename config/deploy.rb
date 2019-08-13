@@ -10,7 +10,7 @@ set :rbenv_type, :user
 set :rbenv_ruby, '2.5.1'
 
 set :ssh_options, auth_methods: ['publickey'],
-                  keys: ['/Users/aiko/.ssh/aiko1225.pem']
+                  keys: ['/Users/aiko/.ssh/aiko0820.pem']
 
                   
                   
